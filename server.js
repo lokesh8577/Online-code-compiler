@@ -38,7 +38,7 @@ app.post("/run", (req, res) => {
         path: "/submissions?base64_encoded=false&wait=true",
         headers: {
             "Content-Type": "application/json",
-            "x-rapidapi-key": "8938db13dcmsh757719b80183190p1a1f69jsna3796411cc74",
+            "x-rapidapi-key": "your api key",
             "x-rapidapi-host": "judge0-ce.p.rapidapi.com",
         },
     };
