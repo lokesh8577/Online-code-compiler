@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #333;
+}
+#navbar {
+    background-color: #493D9E; /* Override Bootstrap */
+    padding: 15px;
+}
+.navbar-brand{
+    color: #FFF2AF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.container {
+    width: 100%;
+    background: #DAD2FF;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+}
+
+textarea {
+    width: 50%;
+    height: 700px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #B2A5FF;
+    border-radius: 4px;
+    background-color: #DAD2FF;
+}
+
+select {
+    width: 10%;
+   height: 40px;
+   border: 2px solid #B2A5FF;
+   border-radius: 30px;
+   margin-left: 74%;
+   background-color: #B2A5FF;
+}
+
+button {
+    width: 5%;
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    background: #B2A5FF;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #DAD2FF;
+}
+
+.output {
+    border: 1px solid #B2A5FF;
+    width: 50%;
+}
+
+pre {
+    margin-left: 20px;
+    border-radius: 4px;
+    font-size: 15px;
+
+}
+.output h2{
+    margin-left: 20px;
+    margin-top: 0px;
+    color: #FFF2AF;
+    text-decoration: underline;
+}
